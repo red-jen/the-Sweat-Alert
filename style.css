@@ -1,0 +1,40 @@
+.alert{
+   
+}
+
+
+.info{
+    background-color: turquoise;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 10px;
+    animation: slideIn 0.3s;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+
+
+.success{
+        background-color: green;
+        
+}
+.warning{
+    background-color: rgb(255, 208, 0);
+}
+
+
+.danger{
+    background-color: rgb(193, 3, 3);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+  }
