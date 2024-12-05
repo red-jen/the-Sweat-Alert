@@ -17,17 +17,9 @@
 
 
 
-.success{
-        background-color: green;
-        
-}
-.warning{
-    background-color: rgb(255, 208, 0);
-}
 
-
-.danger{
-    background-color: rgb(193, 3, 3);
+.remove{
+    animation: fade 0.3s;
 }
 
 @keyframes slideIn {
@@ -36,5 +28,13 @@
     }
     to {
         transform: translateX(0);
+    }
+  }
+  @keyframes fade {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
     }
   }
